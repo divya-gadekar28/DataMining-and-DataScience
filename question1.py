@@ -1,5 +1,6 @@
-#Consider the student data set. It can be downloaded from(https://drive.google.com/open?id=1oakZCv7g3mlmCSdv9J8kdSaqO5_6dIOw). 
-#Write a programme in python to apply simple linear regression and find out mean absolute error, mean squared error and root mean squared error
+#Consider the student data set.It can be downloaded from(https://drive.google.com/open?id=1oakZCv7g3mlmCSdv9J8kdSaqO5_6dIOw). Write a programme in python to apply simple linear regression and find out mean absolute error, mean squared error and root mean squared error
+
+# Linear Regression is a type of supervised learning algorithm used for predicting a continuous outcome variable (also called the dependent variable) based on one or more predictor variables (independent variables).
 
 # Import necessary libraries
 import numpy as np  # NumPy is a library for numerical operations in Python
@@ -33,5 +34,5 @@ print("Mean Absolute Error: ", mae)
 print("Mean Squared Error: ", mse)
 print("Root Mean Squared Error: ", rmse)
 
-
-# Linear Regression is a type of supervised learning algorithm used for predicting a continuous outcome variable (also called the dependent variable) based on one or more predictor variables (independent variables).
+#The code implements a simple linear regression model using the scikit-learn library in Python.
+#It generates a dataset with input features (`X`) and target variable (`y`), trains the linear regression model, makes predictions, and calculates evaluation metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) to assess the model's performance on the provided data.
